@@ -1,0 +1,16 @@
+C:\Users\usuario\source\repos\DicionarioLeitor\DicionarioLeitor\bin\Debug\net8.0-windows\DicionarioLeitor.exe
+C:\Users\usuario\source\repos\DicionarioLeitor\DicionarioLeitor\bin\Debug\net8.0-windows\DicionarioLeitor.deps.json
+C:\Users\usuario\source\repos\DicionarioLeitor\DicionarioLeitor\bin\Debug\net8.0-windows\DicionarioLeitor.runtimeconfig.json
+C:\Users\usuario\source\repos\DicionarioLeitor\DicionarioLeitor\bin\Debug\net8.0-windows\DicionarioLeitor.dll
+C:\Users\usuario\source\repos\DicionarioLeitor\DicionarioLeitor\bin\Debug\net8.0-windows\DicionarioLeitor.pdb
+C:\Users\usuario\source\repos\DicionarioLeitor\DicionarioLeitor\obj\Debug\net8.0-windows\DicionarioLeitor.Form1.resources
+C:\Users\usuario\source\repos\DicionarioLeitor\DicionarioLeitor\obj\Debug\net8.0-windows\DicionarioLeitor.csproj.GenerateResource.cache
+C:\Users\usuario\source\repos\DicionarioLeitor\DicionarioLeitor\obj\Debug\net8.0-windows\DicionarioLeitor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuario\source\repos\DicionarioLeitor\DicionarioLeitor\obj\Debug\net8.0-windows\DicionarioLeitor.AssemblyInfoInputs.cache
+C:\Users\usuario\source\repos\DicionarioLeitor\DicionarioLeitor\obj\Debug\net8.0-windows\DicionarioLeitor.AssemblyInfo.cs
+C:\Users\usuario\source\repos\DicionarioLeitor\DicionarioLeitor\obj\Debug\net8.0-windows\DicionarioLeitor.csproj.CoreCompileInputs.cache
+C:\Users\usuario\source\repos\DicionarioLeitor\DicionarioLeitor\obj\Debug\net8.0-windows\DicionarioLeitor.dll
+C:\Users\usuario\source\repos\DicionarioLeitor\DicionarioLeitor\obj\Debug\net8.0-windows\refint\DicionarioLeitor.dll
+C:\Users\usuario\source\repos\DicionarioLeitor\DicionarioLeitor\obj\Debug\net8.0-windows\DicionarioLeitor.pdb
+C:\Users\usuario\source\repos\DicionarioLeitor\DicionarioLeitor\obj\Debug\net8.0-windows\DicionarioLeitor.genruntimeconfig.cache
+C:\Users\usuario\source\repos\DicionarioLeitor\DicionarioLeitor\obj\Debug\net8.0-windows\ref\DicionarioLeitor.dll
