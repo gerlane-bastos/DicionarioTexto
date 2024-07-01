@@ -38,8 +38,6 @@ namespace DicionarioLeitor
             salvaPalavrasNoDicionario();
         }
 
-
-
         //metodo que vai pegando qualquer mudanca no texto e inserindo na lista
         private void pegaAlteracaoDoTexto(object sender, EventArgs e)
         {
@@ -69,8 +67,9 @@ namespace DicionarioLeitor
 
                             int size = this.richTextBox1.Text.Length;
                             this.richTextBox1.Select(size, size);
+                            this.richTextBox1.SelectionColor = Color.Black;
 
-                            //listaPalavrasDigitadas.Add(palavra);
+                            listaPalavrasDigitadas.Add(palavra);
                         }
                         textoSalvo = textoDigitado;
                         return;
@@ -81,11 +80,10 @@ namespace DicionarioLeitor
 
                     int tamanhoTextoSalvo = textoSalvo.Length;
                     palavra = textoDigitado.Substring(tamanhoTextoSalvo - 1);
-                    //MessageBox.Show("palavra: " + palavra.Trim().GetHashCode());
 
                     if (!palavraExisteNoDicionario(palavra.Trim().GetHashCode()))
                     {
-                        //MessageBox.Show("Entrou aqui");
+
                         int inicioPalavra = this.richTextBox1.Find(palavra, tamanhoTextoSalvo > 0 ? (tamanhoTextoSalvo - 1) : 0, RichTextBoxFinds.MatchCase);
                         this.richTextBox1.SelectionStart = inicioPalavra;
                         this.richTextBox1.SelectionLength = palavra.Length;
@@ -166,7 +164,8 @@ namespace DicionarioLeitor
         //ARQUIVO SELECIONADO
         private void abrirArquivo(object sender, EventArgs e)
         {
-
+            this.textoDigitado = string.Empty;
+            this.textoSalvo = string.Empty;
             this.richTextBox1.Text = "";
 
             var abrirArquivo = new OpenFileDialog
@@ -281,6 +280,7 @@ namespace DicionarioLeitor
 
             MessageBox.Show("Palavras incluídas no dicionário.");
         }
+
     }
 
 }
